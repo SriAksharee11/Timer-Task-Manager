@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./taskstyle.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <h1 class="title"><center>TIMER - TASK MANAGER</center></h1>
+    <img src="hh-removebg-preview.png">
+    <form action="">
+    <input type="text" placeholder="Task" id="task"><br><br>
+    <input type="text" placeholder="Description" id="description"><br><br>
+    </form>
+    <!--<button type="button" id="button-select">submit</button>-->
+    
+    <div class="timer" id="timer">
+        <button type="button" id="timer-cont">start</button>
+        <p id="hours">00</p>
+        <p>&nbsp; : &nbsp;</p>
+        <p id="minutes">00</p>
+        <p>&nbsp; : &nbsp;</p>
+        <p id="seconds">00</p>
+    </div>
+
+    <div id="schedule">
+    <table id="tab" class="row">
+        <caption class="cap">YOUR SCHEDULES</caption>
+        <tr>
+        <th>Task</th>      
+        <th>Description</th>
+        <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Meeting</td>      
+            <td>To attend google meet </td>
+            <td>00:30:00</td>
+            </tr>
+           <tr>
+                <td>Frontend</td>      
+                <td>CSS styling </td>
+                <td>01:20:00</td>
+                </tr>
+
+                <tr>
+                    <td>Backend</td>      
+                    <td>connectivity </td>
+                    <td>00:20:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Meeting</td>      
+                        <td>Client Meeting </td>
+                        <td>01:00:00</td>
+                        </tr> 
+
+                
+
+
+
+
+    </table>
+    </div>
+
+    <script type="module" src="taskjs.js"></script>
+</body>
+</html>
+
+
+   
